@@ -1,0 +1,68 @@
+UAGAIN SHADOW PARROT PLYMOUTH THEMES
+====================================
+
+Plymouth is the graphical boot screen displayed while Linux starts.
+
+Plymouth themes are stored in:
+
+/usr/share/plymouth/themes/
+
+INSTALLATION:
+
+The folder included with this pack may look something like:
+
+Plymouth Themes
+└── UAgain Shadow Parrot Pack
+└── [actual Plymouth theme]
+
+Do NOT copy the entire "Plymouth Themes" folder into the system folder.
+
+Instead:
+
+1. Open:
+
+Plymouth Themes
+
+2. Open:
+
+UAgain Shadow Parrot Pack
+
+3. Find the actual Plymouth theme folder.
+
+4. Copy that actual theme folder into:
+
+/usr/share/plymouth/themes/
+
+The final structure should look similar to:
+
+/usr/share/plymouth/themes/
+└── UAgain Shadow Parrot/
+
+The individual theme folder should be directly inside the themes
+directory.
+
+If Linux will not allow you to paste:
+
+1. Right-click inside:
+
+/usr/share/plymouth/themes/
+
+2. Select:
+
+Open as Administrator
+
+3. Enter your password.
+4. Paste the actual theme folder.
+
+IMPORTANT:
+
+Do not delete the other Plymouth themes.
+
+After installing a Plymouth theme, the system may also need the theme
+to be selected as the active Plymouth theme and the initramfs rebuilt,
+depending on the Linux distribution.
+
+If you are only installing the files and they do not appear during
+startup, check which Plymouth theme is currently selected.
+
+Always keep a backup of the original theme files.

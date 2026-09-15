@@ -1,0 +1,47 @@
+UAGAIN SHADOW APPLICATION MENU LOGO
+===================================
+
+This folder contains the UAgain Shadow logo that can be used as the
+KDE Plasma Application Launcher icon.
+
+The Application Launcher is the menu button normally located on the
+Plasma panel.
+
+You do NOT need to manually replace system icon files to change the
+launcher icon.
+
+INSTALLATION:
+
+1. Find the Application Launcher button on your Plasma panel.
+
+2. Right-click the Application Launcher.
+
+3. Select:
+
+Configure Application Launcher
+
+4. Find the launcher icon setting.
+
+5. Choose the UAgain Shadow logo from this folder.
+
+6. Apply the change.
+
+This is the recommended way to change the Application Launcher icon
+because it avoids manually replacing files inside system icon folders.
+
+If you are using a different launcher widget instead of the standard
+KDE Plasma Application Launcher, the available options may be
+different.
+
+IMPORTANT:
+
+Do not replace random files inside:
+
+/usr/share/icons/
+
+just to change the Application Launcher logo.
+
+Use the Application Launcher configuration whenever possible.
+
+The KDE Plasma handbook documents the "Configure Application Launcher"
+option available by right-clicking the menu button.

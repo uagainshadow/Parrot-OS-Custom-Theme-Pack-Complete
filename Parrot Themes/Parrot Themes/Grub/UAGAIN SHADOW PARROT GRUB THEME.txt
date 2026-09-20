@@ -1,0 +1,59 @@
+UAGAIN SHADOW PARROT GRUB THEME
+===============================
+
+This folder contains the custom GRUB artwork for the UAgain Shadow
+Parrot Theme.
+
+The artwork includes:
+
+grub-16x9
+grub-4x3
+
+The two images were intentionally made the same so the boot screen has
+the same appearance instead of switching to a different image depending
+on the display aspect ratio.
+
+GRUB files are part of the system's boot configuration.
+
+The exact location can vary depending on the version of Parrot OS and
+the GRUB/desktop-base theme installed.
+
+On the Parrot setup this pack was designed for, the relevant theme files
+are associated with the Parrot desktop-base GRUB theme.
+
+IMPORTANT:
+
+Do not randomly replace files in the GRUB directories.
+
+First make a backup of the original files.
+
+If you need administrator permission:
+
+1. Navigate to the GRUB theme folder.
+2. Right-click inside the folder.
+3. Choose:
+
+Open as Administrator
+
+4. Enter your password.
+5. Make your backup.
+6. Replace the appropriate image files.
+
+If your system uses a different GRUB theme, the filenames or location
+may be different.
+
+If the GRUB image does not change, check the active GRUB theme and its
+configuration before replacing additional files.
+
+After changing GRUB artwork, the GRUB configuration may need to be
+updated before the new image appears at boot.
+
+IMPORTANT:
+
+Do not delete the entire GRUB theme folder.
+
+Only replace the artwork that this theme pack provides.
+
+I Didn't Put grub-4x3 in there becasue it looked weird, so i put the
+one on the front and made the images in the folders the same. If you
+want you can swap it out.

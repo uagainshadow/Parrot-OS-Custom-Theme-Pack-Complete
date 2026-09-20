@@ -1,0 +1,71 @@
+UAGAIN SHADOW PARROT LOGIN SCREEN
+=================================
+
+This folder contains replacement login-screen background images.
+
+The replacement image used by this setup is:
+
+login.jpg
+
+RECOMMENDED IMAGE:
+
+3840 × 2160
+JPEG (.jpg)
+
+LOCATION:
+
+/usr/share/backgrounds/
+
+INSTALLATION:
+
+1. Go to:
+
+Root
+→ usr
+→ share
+→ backgrounds
+
+2. Find the existing:
+
+login.jpg
+
+3. BEFORE replacing it, make a backup.
+
+4. Copy the original login.jpg somewhere safe.
+
+5. Choose one of the UAgain Shadow login images from this folder.
+
+6. Make sure the replacement image is:
+
+3840 × 2160
+JPEG
+
+7. Rename the replacement to:
+
+login.jpg
+
+8. Replace the existing login.jpg.
+
+IMPORTANT:
+
+The filename matters.
+
+The replacement must be named:
+
+login.jpg
+
+If the system is configured to look for that exact file, using another
+filename will not replace the existing login background.
+
+If Linux will not allow you to replace the file:
+
+1. Right-click inside the folder.
+2. Choose:
+
+Open as Administrator
+
+3. Enter your password.
+4. Replace the file.
+
+Always keep the original login.jpg as a backup in case you want to
+restore the default login screen.

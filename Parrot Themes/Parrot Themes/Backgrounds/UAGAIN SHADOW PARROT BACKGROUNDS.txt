@@ -1,0 +1,44 @@
+UAGAIN SHADOW PARROT BACKGROUNDS
+================================
+
+These are the desktop background images included with the UAgain Shadow
+Parrot Theme.
+
+SYSTEM LOCATION:
+
+/usr/share/backgrounds/
+
+To install them:
+
+1. Open the file manager.
+2. Go to:
+
+Root
+→ usr
+→ share
+→ backgrounds
+
+3. Copy the included UAgain Shadow background images into that folder.
+
+If Linux does not allow you to paste files:
+
+1. Right-click inside the backgrounds folder.
+2. Select:
+
+Open as Administrator
+
+3. Enter your password.
+4. Paste the files.
+5. Close the administrator window when finished.
+
+After installing the images, go to your desktop wallpaper settings and
+select the new UAgain Shadow backgrounds.
+
+IMPORTANT:
+
+Do not delete your existing backgrounds unless you have made a backup.
+
+The backgrounds in this folder are simply image files. You do not need
+to copy the entire UAgain Shadow folder into /usr/share/backgrounds/.
+
+Copy the actual image files.

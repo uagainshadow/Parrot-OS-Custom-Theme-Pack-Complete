@@ -1,0 +1,135 @@
+# UAGAIN SHADOW PARROT PLASMA SPLASH SCREEN
+
+=========================================
+
+This folder contains a custom KDE Plasma 6 splash screen.
+
+A Plasma splash screen is the graphical screen displayed while the
+Plasma desktop is starting after login.
+
+USER LOCATION:
+
+The UAgain Shadow splash screen should be installed in your user's
+local Plasma Look-and-Feel directory:
+
+```
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+```
+
+Replace `(USERNAME)` with your actual Linux username.
+
+For example:
+
+```
+/home/john/.local/share/plasma/look-and-feel/
+```
+
+INSTALLATION:
+
+1. Open your **Home** folder.
+
+2. If you do not see the `.local` folder, press:
+
+Ctrl + H
+
+This will show hidden files and folders.
+
+The `.local` folder is hidden because its name begins with a dot.
+
+3. Open:
+
+.local
+→ share
+→ plasma
+→ look-and-feel
+
+The full path is:
+
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+
+4. If the `look-and-feel` folder does not already exist, create the
+necessary folders:
+
+.local/share/plasma/look-and-feel/
+
+5. Open the included UAgain Shadow splash-screen folder.
+
+6. Locate the actual Plasma Look-and-Feel theme folder.
+
+7. Copy the actual theme folder into:
+
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+
+IMPORTANT:
+
+Do NOT copy the entire outer "Plymouth Themes" or UAgain Shadow
+collection folder into the `look-and-feel` directory.
+
+You want the actual Plasma theme folder to be directly inside:
+
+```
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+```
+
+For example:
+
+```
+/home/(USERNAME)/.local/share/plasma/look-and-feel/theme-name/
+```
+
+Plasma 6 Look-and-Feel packages contain their splash screen inside:
+
+```
+contents/splash/
+```
+
+The complete structure should look similar to:
+
+```
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+└── theme-name/
+└── contents/
+└── splash/
+```
+
+After installation:
+
+1. Open **System Settings**.
+
+2. Go to:
+
+Colors & Themes
+→ Splash Screen
+
+3. Select the **UAgain Shadow** splash screen.
+
+4. Apply the change.
+
+IMPORTANT:
+
+This is a **user-local installation**. You do NOT need to copy the
+theme into:
+
+```
+/usr/share/plasma/look-and-feel/
+```
+
+You also do NOT need administrator/root permissions.
+
+If you no longer need to see hidden folders, press:
+
+```
+Ctrl + H
+```
+
+again to hide them.
+
+Do not delete other Plasma Look-and-Feel themes.
+
+Plasma 6 uses the Look-and-Feel package structure, including the:
+
+```
+contents/splash/
+```
+
+directory.

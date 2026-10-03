@@ -1,0 +1,357 @@
+# How to Install the UAgain Shadow Parrot Theme on Parrot OS
+
+## ⚠️ IMPORTANT: READ THIS BEFORE YOU START
+
+This guide explains how to install and customize the **UAgain Shadow Parrot Theme** on Parrot OS.
+
+**Be very careful when changing system files.**
+
+Some of the files used by this theme are part of the operating system, including **GRUB** and **Plymouth**. Changing or deleting the wrong files can cause problems with your desktop, login screen, boot screen, or, in some cases, prevent the system from booting correctly.
+
+### 🚨 ALWAYS MAKE A BACKUP FIRST
+
+**Do not replace, delete, or modify an original system file until you have made a copy of it somewhere safe.**
+
+If something goes wrong, your backup may be the easiest way to restore the original configuration.
+
+**Do not skip the backup step.**
+
+You are making these changes **at your own risk**. If you are not comfortable working with system files or administrator permissions, stop and get help before continuing.
+
+---
+
+# 1. Administrator Permissions
+
+Some of the theme files are stored in system directories that require administrator/root permissions.
+
+If Linux does not allow you to copy or replace a file:
+
+1. Open the file manager.
+2. Navigate to the folder containing the file.
+3. Right-click inside the folder.
+4. Select **Open as Administrator**.
+5. Enter your password when prompted.
+6. Make your backup before changing anything.
+7. Make the required change.
+8. Close the administrator window when finished.
+
+**Only use administrator permissions when necessary.**
+
+---
+
+# 2. Install the UAgain Shadow Parrot Backgrounds
+
+The included desktop background images belong in:
+
+```text
+/usr/share/backgrounds/
+```
+
+### Installation
+
+1. Open your file manager.
+2. Go to:
+
+```text
+Root
+→ usr
+→ share
+→ backgrounds
+```
+
+3. Copy the **actual UAgain Shadow background image files** into the `backgrounds` folder.
+
+If Linux does not allow you to paste the files:
+
+1. Right-click inside the `backgrounds` folder.
+2. Select **Open as Administrator**.
+3. Enter your password.
+4. Paste the image files.
+5. Close the administrator window.
+
+After installing the images, open your desktop wallpaper settings and select the new UAgain Shadow background.
+
+### ⚠️ Important
+
+Do **not** delete your existing backgrounds unless you have made a backup.
+
+The backgrounds are simply image files. You do **not** need to copy the entire UAgain Shadow collection folder into `/usr/share/backgrounds/`.
+
+**Copy the actual image files.**
+
+---
+
+# 3. Change the GRUB Boot Screen
+
+GRUB is part of the system's boot configuration, so this section requires extra care.
+
+The UAgain Shadow Parrot GRUB artwork is intended for:
+
+```text
+/usr/share/desktop-base/parrot-theme/grub
+```
+
+The theme includes:
+
+* `grub-16x9`
+* `grub-4x3`
+
+The artwork was designed so the boot screen can maintain the same appearance across different display aspect ratios.
+
+### Installation
+
+1. Navigate to:
+
+```text
+/usr/share/desktop-base/parrot-theme/grub
+```
+
+2. Before changing anything, **make a backup of the original artwork files**.
+3. Right-click inside the folder if administrator permissions are required.
+4. Select **Open as Administrator**.
+5. Enter your password.
+6. Replace only the appropriate artwork files with the UAgain Shadow artwork.
+
+### ⚠️ DO NOT RANDOMLY REPLACE GRUB FILES
+
+Do not start replacing files in other GRUB directories just because you find files with similar names.
+
+If your system uses a different GRUB theme, the filenames or locations may be different.
+
+If the GRUB image does not change, first check whether the active GRUB configuration is actually using:
+
+```text
+/usr/share/desktop-base/parrot-theme/grub
+```
+
+Also check the GRUB configuration before changing files in another location.
+
+### ⚠️ DO NOT DELETE THE ENTIRE GRUB THEME FOLDER
+
+Only replace the artwork that the UAgain Shadow theme provides.
+
+---
+
+# 4. Change the KDE Plasma Application Menu Logo
+
+The UAgain Shadow package includes a logo that can be used as the **KDE Plasma Application Launcher** icon.
+
+You do not need to manually replace system icon files.
+
+### Installation
+
+1. Find the **Application Launcher** button on your Plasma panel.
+2. Right-click it.
+3. Select:
+
+**Configure Application Launcher**
+
+4. Find the launcher icon setting.
+5. Select the UAgain Shadow logo.
+6. Apply the change.
+
+This method is recommended because it avoids manually replacing files inside system icon directories.
+
+### ⚠️ Avoid manually changing system icons
+
+Do not randomly replace files inside:
+
+```text
+/usr/share/icons/
+```
+
+just to change the Application Launcher logo.
+
+Use the Application Launcher configuration whenever possible.
+
+---
+
+# 5. Change the Login Screen Background
+
+The UAgain Shadow package includes replacement login-screen images.
+
+The replacement image used by this setup is:
+
+```text
+login.jpg
+```
+
+The recommended image format is:
+
+```text
+3840 × 2160
+JPEG (.jpg)
+```
+
+The image is located in:
+
+```text
+/usr/share/backgrounds/
+```
+
+### Installation
+
+1. Navigate to:
+
+```text
+/usr/share/backgrounds/
+```
+
+2. Find the existing:
+
+```text
+login.jpg
+```
+
+3. **Make a backup of the original `login.jpg` before replacing it.**
+4. Copy the original somewhere safe.
+5. Select a UAgain Shadow login image.
+6. Make sure it is:
+
+```text
+3840 × 2160
+JPEG
+```
+
+7. Rename the replacement image to:
+
+```text
+login.jpg
+```
+
+8. Replace the existing `login.jpg`.
+
+If Linux does not allow you to replace the file:
+
+1. Right-click inside the folder.
+2. Select **Open as Administrator**.
+3. Enter your password.
+4. Replace the file.
+
+### ⚠️ Important
+
+The filename matters.
+
+The replacement must be named:
+
+```text
+login.jpg
+```
+
+Always keep the original `login.jpg` somewhere safe so you can restore the original login screen if necessary.
+
+---
+
+# 6. Install the UAgain Shadow Plasma Splash Screen
+
+The Plasma splash screen is the graphical screen displayed while the KDE Plasma desktop is starting after login.
+
+This theme uses a **user-local installation**, so administrator permissions are not required.
+
+The theme should be installed in:
+
+```text
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+```
+
+Replace `(USERNAME)` with your actual Linux username.
+
+For example:
+
+```text
+/home/john/.local/share/plasma/look-and-feel/
+```
+
+### Show Hidden Folders
+
+The `.local` folder is hidden.
+
+1. Open your **Home** folder.
+2. Press:
+
+```text
+Ctrl + H
+```
+
+This displays hidden files and folders.
+
+### Installation
+
+Navigate to:
+
+```text
+.local
+→ share
+→ plasma
+→ look-and-feel
+```
+
+The full path should be:
+
+```text
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+```
+
+If the `look-and-feel` folder does not exist, create the necessary folders.
+
+Then:
+
+1. Open the included UAgain Shadow splash-screen folder.
+2. Find the **actual Plasma Look-and-Feel theme folder**.
+3. Copy that theme folder into:
+
+```text
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+```
+
+### ⚠️ Important
+
+Do **not** copy the entire outer collection folder into `look-and-feel`.
+
+You want the actual Plasma theme folder directly inside:
+
+```text
+/home/(USERNAME)/.local/share/plasma/look-and-feel/
+```
+
+For example:
+
+```text
+/home/(USERNAME)/.local/share/plasma/look-and-feel/theme-name/
+```
+
+The structure should contain:
+
+```text
+theme-name/
+└── contents/
+└── splash/
+```
+
+### Activate the Splash Screen
+
+After installation:
+
+1. Open **System Settings**.
+2. Go to:
+
+**Colors & Themes → Splash Screen**
+
+3. Select **UAgain Shadow**.
+4. Apply the change.
+
+You do **not** need to copy this theme into:
+
+```text
+/usr/share/plasma/look-and-feel/
+```
+
+You also do not need administrator/root permissions for this user-local installation.
+
+When finished, press:
+
+```text
+Ctrl + H
+```
+
+again if you want to hide the h

@@ -9,6 +9,8 @@ Plasma desktop is starting after login.
 
 USER LOCATION:
 
+Hit Ctrl+H (To Show the Hidden Folders as the .local will be a hidden folder)
+
 The UAgain Shadow splash screen should be installed in your user's
 local Plasma Look-and-Feel directory:
 

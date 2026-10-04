@@ -37,6 +37,8 @@ If Linux does not allow you to copy or replace a file:
 
 **Only use administrator permissions when necessary.**
 
+If you do not have the option of Open as Admin option when right clicking on the background of the folder then type, "dolphine --sudo" this will make the fold let you axt as admin for the folder.
+
 ---
 
 # 2. Install the UAgain Shadow Parrot Backgrounds
